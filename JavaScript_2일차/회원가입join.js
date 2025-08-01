@@ -24,11 +24,11 @@ form.addEventListener("submit", function(event){
   let userEmail = event.target.email.value
   let userIntro = event.target.intro.value
 
-  if(userID.lenth < 6){
+  if(userID.length < 6){
     alert("아이디가 너무 짧습니다. 6자 이상 입력해주세요.")
     return
   }
-  if(userpw1.lenth < 8){
+  if(userpw1.length < 8){
     alert("비밀번호가 너무 짧습니다. 8자 이상 입력해주세요.")
     return
   }
